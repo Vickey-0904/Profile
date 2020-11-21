@@ -20,3 +20,7 @@ function scrollFunction() {
     document.getElementById("po").style.color = "#2C3E50";
   else document.getElementById("po").style.color = "";
 }
+
+function btnact() {
+  alert("🚧 Site under construction 🛠️.");
+}

@@ -39,7 +39,7 @@ ul a {
     padding: 0; }
 
   .navbar li {
-    padding: 5px 15px; }
+    padding: 7px 15px; }
 
   .navbar li a {
     font-size: 12px; } }
@@ -288,8 +288,6 @@ ul a {
   font-size: 14px; }
 
 .f-img {
-  display: flex;
-  justify-content: space-around;
   margin-top: 10px; }
 
 .follow {
@@ -323,10 +321,7 @@ ul a {
     width: 30px; }
 
   .ft-exp > li {
-    text-align: center; }
-
-  .img2 {
-    margin-left: 15px; } }
+    text-align: center; } }
 * {
   margin: 0;
   padding: 0;

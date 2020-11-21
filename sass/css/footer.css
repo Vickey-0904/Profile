@@ -21,8 +21,6 @@
   font-size: 14px; }
 
 .f-img {
-  display: flex;
-  justify-content: space-around;
   margin-top: 10px; }
 
 .follow {
@@ -56,9 +54,6 @@
     width: 30px; }
 
   .ft-exp > li {
-    text-align: center; }
-
-  .img2 {
-    margin-left: 15px; } }
+    text-align: center; } }
 
 /*# sourceMappingURL=footer.css.map */
