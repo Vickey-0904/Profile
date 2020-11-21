@@ -102,10 +102,7 @@
 
 .port {
   background-color: rgba(247, 247, 247, 0.94);
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 50px;
-  padding-bottom: 50px; }
+  padding: 50px 10%; }
 
 @media only screen and (max-width: 749px) {
   .b1-content {

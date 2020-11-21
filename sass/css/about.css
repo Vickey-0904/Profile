@@ -2,10 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 25%;
-  padding-right: 25%;
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding: 100px 25% 50px 25%;
   background-color: rgba(247, 247, 247, 0.94); }
   .about .about-1 {
     padding-top: 2%; }
@@ -19,14 +16,12 @@
     background: linear-gradient(90deg, #f3696e 12%, #f8a902 88%); }
 
 .a-txt {
-  padding-top: 10px; }
+  padding-top: 10px;
+  font-size: 14px; }
 
 @media only screen and (max-width: 481px) {
   .about {
-    padding-left: 12%;
-    padding-right: 12%;
-    padding-top: 15%;
-    padding-bottom: 8%; }
+    padding: 18% 12% 8% 12%; }
     .about .about-1 {
       padding-top: 5%; } }
 

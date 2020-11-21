@@ -47,10 +47,7 @@ ul a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 25%;
-  padding-right: 25%;
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding: 100px 25% 50px 25%;
   background-color: rgba(247, 247, 247, 0.94); }
   .about .about-1 {
     padding-top: 2%; }
@@ -64,14 +61,12 @@ ul a {
     background: linear-gradient(90deg, #f3696e 12%, #f8a902 88%); }
 
 .a-txt {
-  padding-top: 10px; }
+  padding-top: 10px;
+  font-size: 14px; }
 
 @media only screen and (max-width: 481px) {
   .about {
-    padding-left: 12%;
-    padding-right: 12%;
-    padding-top: 15%;
-    padding-bottom: 8%; }
+    padding: 18% 12% 8% 12%; }
     .about .about-1 {
       padding-top: 5%; } }
 .d1 {
@@ -103,7 +98,7 @@ ul a {
   padding: 40px 0px 13px 0px; }
 
 .skills {
-  padding: 50px 0; }
+  padding: 50px 0px; }
 
 @media only screen and (max-width: 481px) {
   .d1 {
@@ -122,7 +117,7 @@ ul a {
     padding: 35px 0px 13px 0px; }
 
   .skills {
-    padding: 30px 0; }
+    padding: 30px 0px; }
 
   .development {
     padding: 18px 0px 13px 0px; }
@@ -234,10 +229,7 @@ ul a {
 
 .port {
   background-color: rgba(247, 247, 247, 0.94);
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 50px;
-  padding-bottom: 50px; }
+  padding: 50px 10%; }
 
 @media only screen and (max-width: 749px) {
   .b1-content {
@@ -278,20 +270,19 @@ ul a {
   margin: auto; }
 
 .foot {
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 10%;
   background-color: #171717; }
 
 .abt > p {
   font-size: 14px; }
 
 .f-img {
+  display: flex;
+  justify-content: space-around;
   margin-top: 10px; }
 
 .follow {
-  padding: 0 50px; }
+  padding: 0px 50px; }
 
 .f-img > img {
   padding: 0 10px;
@@ -314,14 +305,17 @@ ul a {
     margin-top: 30px; }
 
   .f-img {
-    justify-content: center; }
+    justify-content: space-around; }
 
   .f-img > img {
     padding: 0 5px;
     width: 30px; }
 
   .ft-exp > li {
-    text-align: center; } }
+    text-align: center; }
+
+  .img2 {
+    margin-left: 2px; } }
 * {
   margin: 0;
   padding: 0;
@@ -343,8 +337,5 @@ html {
   border-radius: 50px;
   height: 10px;
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent); }
-
-.change {
-  color: red; }
 
 /*# sourceMappingURL=style.css.map */
