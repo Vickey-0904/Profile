@@ -22,7 +22,6 @@
 
 .a-txt {
   padding-top: 10px;
-  font-size: 14px;
 }
 
 @media only screen and (max-width: 481px) {
@@ -34,4 +33,7 @@
     }
   }
 
+  .a-txt{
+      font-size: 14px;
+  }
 }

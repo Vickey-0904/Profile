@@ -61,14 +61,16 @@ ul a {
     background: linear-gradient(90deg, #f3696e 12%, #f8a902 88%); }
 
 .a-txt {
-  padding-top: 10px;
-  font-size: 14px; }
+  padding-top: 10px; }
 
 @media only screen and (max-width: 481px) {
   .about {
     padding: 17% 12% 8% 12%; }
     .about .about-1 {
-      padding-top: 5%; } }
+      padding-top: 5%; }
+
+  .a-txt {
+    font-size: 14px; } }
 .d1 {
   display: flex;
   justify-content: center;
@@ -77,7 +79,8 @@ ul a {
   margin: auto; }
 
 .dl {
-  margin: 10px; }
+  margin: 10px;
+  font-size: 16px; }
 
 .d2 {
   display: flex;
@@ -110,7 +113,8 @@ ul a {
     text-align: center; }
 
   .dl {
-    margin: 0; }
+    margin: 0;
+    font-size: 14px; }
 
   .design {
     text-align: center;
@@ -231,6 +235,9 @@ ul a {
   background-color: rgba(247, 247, 247, 0.94);
   padding: 50px 10%; }
 
+.p-content {
+  font-size: 16px; }
+
 @media only screen and (max-width: 749px) {
   .b1-content {
     text-align: center;
@@ -256,7 +263,10 @@ ul a {
     margin-top: 30px; }
 
   .row-2 {
-    margin-top: 50px; } }
+    margin-top: 50px; }
+
+  .p-content {
+    font-size: 14px; } }
 .ft-exp > li {
   padding: 0;
   margin: 0;
