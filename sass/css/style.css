@@ -184,6 +184,16 @@ ul a {
 .row-2 {
   margin-top: 50px; }
 
+.box-3 {
+  display: block;
+  width: 300px;
+  height: 220px;
+  background: #feda75;
+  background: linear-gradient(90deg, #feda75 0%, #fa7e1e 22%, #d62976 50%, #962fbf 74%, #9431c0 100%);
+  color: white;
+  border-radius: 25px;
+  position: relative; }
+
 .box-2 {
   display: block;
   width: 300px;
@@ -207,6 +217,13 @@ ul a {
   flex-direction: row-reverse;
   justify-content: center;
   flex-wrap: wrap; }
+
+.row-3 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 70px; }
 
 .b2-content {
   width: 450px;
@@ -255,15 +272,22 @@ ul a {
     width: 240px;
     height: 200px; }
 
+  .box-3 {
+    width: 240px;
+    height: 200px; }
+
   .port {
     padding-top: 30px;
     padding-bottom: 40px; }
 
-  .row-1 {
+  .row-3 {
     margin-top: 30px; }
 
+  .row-1 {
+    margin-top: 70px; }
+
   .row-2 {
-    margin-top: 80px; }
+    margin-top: 70px; }
 
   .p-content {
     font-size: 14px; } }
