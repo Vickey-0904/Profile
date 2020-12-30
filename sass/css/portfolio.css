@@ -94,6 +94,14 @@
   flex-wrap: wrap;
   margin-top: 70px; }
 
+.row-4 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  margin-bottom: 20px; }
+
 .b2-content {
   width: 450px;
   padding-right: 80px;
